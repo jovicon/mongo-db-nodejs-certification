@@ -48,3 +48,40 @@ Correct.
     M10+ dedicated clusters provide access to all Atlas features.
 
 ## Lesson 02: Creating and Deploying an Atlas Cluster
+
+- Good Practice:
+
+  - Create a new project for each new application you build. This will help you keep your applications organized and make it easier to manage your Atlas resources.
+
+  - When creating a new cluster, you can choose to deploy a free cluster or a paid cluster. Free clusters are great for testing and development, but they are not recommended for production environments.
+
+User: jovicon
+Pass: IKQUfaqS2k4JyQBn
+
+```bash
+$> ~ atlas auth register
+# 4TMH-3PDC -- Copy this to your account
+```
+
+## Conclusión
+In this unit, you learned that MongoDB Atlas is a developer data platform that stores your data in Atlas clusters, a global, multi-cloud database service. You also learned that the developer data platform has many features that enable you to build a wide variety of applications.
+
+- You created a free Atlas account and deployed a free tier Atlas cluster by doing the following:
+  - Chose a shared cluster.
+  - Chose a major cloud provider to host your cluster.
+  - Used the region recommended by MongoDB as the location of database deployment.
+  - Prepared to connect to your cluster by adding a database user and password and an IP address to the IP Access list
+
+Finally, you successfully loaded sample data into your cluster and found a document in a collection by using Data Explorer.
+
+Resources
+Use the following resources to learn more about inserting and finding documents in MongoDB:
+
+- Lesson 01: Introduction to MongoDB Atlas, the Developer Data Platform
+  - [MongoDB Docs: MongoDB Clusters](https://www.mongodb.com/basics/clusters?_ga=2.214898071.1696183875.1693764839-1882492524.1682093535)
+  - [MongoDB Docs: MongoDB Atlas](https://www.mongodb.com/docs/atlas/?_ga=2.214898071.1696183875.1693764839-1882492524.1682093535)
+
+- Lesson 02: Creating and Deploying an Atlas Cluster
+  - [MongoDB Docs: Get Started with Atlas](https://www.mongodb.com/docs/atlas/getting-started/?_ga=2.256717451.1696183875.1693764839-1882492524.1682093535)
+  - [MongoDB Docs: Deploy a Free Cluster](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/?_ga=2.256717451.1696183875.1693764839-1882492524.1682093535)
+  - [MongoDB Docs: Load Sample Data](https://www.mongodb.com/docs/atlas/sample-data/?_ga=2.256717451.1696183875.1693764839-1882492524.1682093535)
